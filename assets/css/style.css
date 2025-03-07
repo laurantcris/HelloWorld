@@ -1,0 +1,42 @@
+* {
+    font-family: "Lato", sans-serif;
+    font-size: 16px;
+    color: #333;
+    inline-size: 1.5;
+}
+
+body {
+    width: 900px;
+    text-align: center;
+    align-items: center;
+    margin: 0 auto;
+
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    background: #007eb3;
+    justify-content: space-evenly;
+    padding: 15px 0;
+}
+
+nav ul li {
+    color: white;
+}
+
+h1 {
+    color: #007eb3;
+    font-size: 2.82em;
+    border-bottom: 1px dotted #007eb3;
+    word-spacing: 0.625em;
+    font-weight: 400;
+}
+
+h2{
+    font-size: 1.875em;
+}
+
+h3 {
+    font-size: 1.563em;
+}
