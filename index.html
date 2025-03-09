@@ -7,11 +7,12 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
-    <title>HelloWorld</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">    
+<title>HelloWorld</title>
 </head>
 
 <body>
-    <head>
+    <header>
     <a href="index.html"><img src="./assets/img/logo.png" alt="logo HelloWorld"></a>
     <nav>
         <ul>
@@ -22,11 +23,12 @@
         </ul>
     </nav>
     <h1>Carnets de voyage</h1>
-    </head>
+    </header>
 
     <main>
-        <h2>mes derniers voyages</h2>
+        
         <section class="vienne" >
+            <h2>mes derniers voyages</h2>
             <h3>Vienne, Autriche</h3>
             <div class="autriche">
                 <img src="./assets/img/vienne.jpg" alt="Vienne">
@@ -42,11 +44,10 @@
             <h3>Marrakech, Maroc</h3>
             <div class="maroc">
                 <img src="./assets/img/marrakech.jpg" alt="Vienne">
-                <div class="text2"><p></p>
+                <div class="text2">
                 <p>Marrakech, est une ville située dans le centre du Maroc au pied des montagnes de l'Atlas. Marrakech est surnommée <span style="color:#F00">« la ville rouge »</span> ou la <span style="color:#CD8C56"> « ville ocre »</span> en référence à la couleur rouge d'une grande partie de ses immeubles et ses maisons.</p>
                 <p>Marrakech est une ville unique en son genre qui se distingue totalement du reste. Visiter Marrakech est une expérience qui stimulera tous vos sens : ses couleurs, ses saveurs et ses odeurs vous marqueront dès votre arrivée et vous accompagneront des semaines après votre retour.
-                    En savoir plus
-                    </p>
+                <p>En savoir plus</p>                    </p>
                 <button>En savoir plus</button>
                 </div>
             </div>    
@@ -90,7 +91,7 @@
                 </tbody>
             </table>
         </section>
-
+</main>
         <section class="propos">
             <div>
                 <h2>à propos</h2>
@@ -100,10 +101,48 @@
                 <p>Vous pourrez trouver ici de l'inspiration et de nombreux conseils pour réduire votre budget voyages et pouvoir partir plus souvent.</p>
             </div>
         </section>
-
-
-    </main>
-
-    <footer></footer>
+        
+<main>
+        <section class="vienne">
+        <h2>me contacter</h2>
+            <ul class="contact">
+                <li><i class="fa-solid fa-location-dot"></i>31 Rue d'Auteuil, Paris 16ème</li>
+                <li><i class="fa-solid fa-envelope"></i> <span style="color:#007eb3">claire@helloworld.com</span></li>
+                <li><i class="fa-solid fa-phone"></i><span style="color:#007eb3">06 01 03 05 07</span></li>
+            </ul>
+        </section>
+    <section class=".form">
+        <h3>Formulaire de contact</h3>
+        <div class="formulaire">
+        <form action="contact.php" method="post">
+        <div class="container">
+                <div class="left-column">
+            <input type="text" name="votrenom" placeholder="Votre nom">
+            <input type="email" name="mail" placeholder="Votre email">
+            <input type="tel" name="tel" placeholder="Votre numéro de téléphone">
+                </div>
+                <div class="right-column">
+            <input type="textarea" name="message" placeholder="Votre message" id="message">
+                </div>
+        </div>
+            <button type="submit" name="envoi" id="envoi">Envoyer</button>
+        </form>
+        
+        </div>
+        
+        <div class="suivez">
+        <p>suivez-moi sur</p>
+        <i class="fa-brands fa-square-facebook"></i>
+        <i class="fa-brands fa-square-twitter"></i>
+        <i class="fa-brands fa-square-pinterest"></i>
+        <i class="fa-brands fa-square-instagram"></i>
+        </div>
+    </section>
+</main>
+    <footer>
+        <img src="./assets/img/logo-3wa.png" alt="">
+        <p>Ce matériel pédagogique est la propriété de la 3W Academy. Cet exercice a été réalisé par Christiane Dumont.</p>
+        <p>Images fournies par Pixabay.</p>
+    </footer>
 </body>
 </html>
