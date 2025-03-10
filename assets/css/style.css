@@ -31,8 +31,9 @@ nav ul {
     padding: 20px;
 }
 
-nav ul li {
+nav ul li a {
     color: white;
+    text-decoration: none;
 }
 
 h1 {
@@ -144,6 +145,10 @@ section.propos {
     padding: 0;
 }
 
+.ontact span {
+    text-decoration: none;
+}
+
 i {
 font-size: 20px;
 margin-right: 10px;
@@ -178,7 +183,7 @@ form {
     flex-direction: column;
     gap: 10px;
 }
-input {
+input, textarea {
     width: 410px;
     height: 40px;
     border: none;
@@ -188,14 +193,14 @@ input {
 
 .formulaire {
     padding-bottom: 10px;
-    background-color: rgb(0, 0, 0);
+    background-color: rgb(53, 53, 53);
     background-image: url(/assets/img/map-image.png);
     background-size: cover;
     background-position-y: center ;
 }
 
 #envoi {
-        padding: 10px 30px;
+    padding: 10px 30px;
     width: 150px;
 }
 
@@ -204,8 +209,18 @@ input {
 }
 
 .suivez {
+    margin-top: 40px ;
     text-align: left;
-    line-height: 0.1px;
+}
+
+.suivez p {
+    margin: 0; 
+    padding: 0;
+}
+
+.suivez p a i{
+    margin: 0;
+    padding: 0;
 }
 
 footer {
@@ -216,6 +231,7 @@ footer {
 
 .fa-brand {
     padding: 0;
+    margin: 0;
 }
 
 .fa-square-facebook {
@@ -234,6 +250,13 @@ footer {
     color: #8948C1;
 }
 
-footer {
+footer p{
+    margin-bottom: 5px;
+    margin-top: 5px;
+    inline-size: 0.5;
+    color: white;
+}
+
+footer a {
     color: white;
 }
